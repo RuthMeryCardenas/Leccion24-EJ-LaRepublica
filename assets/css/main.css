@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Clases*/
+.pos-relative {
+  position: relative;
+}
+
+.dis-inline-block {
+  display: inline-block;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*Contenedor principal*/
+#tem-wrapper {
+  background-color: #ebebeb;
+}
+
+/*Cabecera*/
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/*Cabecera Principal*/
+#header-main{
+  height: 72px;
+  background-color: #e00109;
+  text-align: center;
+}
+
+.hm-content {
+  position: relative;
+  width: 24%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+#logo img{
+
+}
+
+/*Menú de navegación*/
+#navbar{
+  background-color: #5c5c66;
+}
+#navbar-list{
+  left: 14%;
+  width: 72%;
+  text-align: center;
+  color: #fefefe;
+}
+#navbar-list li{
+  background-color: #4d4d59;
+  display: inline-block;
+}
+
+#tem-body {
+  height: 500px;
+  width: 72%;
+  left: 14%;
+  background-color: #ffffff;
+}
+
+/*footer {
+  height: 100px;
+  background-color: yellow;
+}*/

@@ -2,7 +2,7 @@
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?rhznus');
   src:  url('fonts/icomoon.eot?rhznus#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rhznus') format('truetype'),
+    url('/fonts/icomoon.ttf?rhznus') format('truetype'),
     url('fonts/icomoon.woff?rhznus') format('woff'),
     url('fonts/icomoon.svg?rhznus#icomoon') format('svg');
   font-weight: normal;
@@ -51,4 +51,3 @@
 .icon-youtube:before {
   content: "\ea9d";
 }
-
