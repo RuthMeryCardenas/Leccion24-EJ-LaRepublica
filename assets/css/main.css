@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*Clases*/
@@ -32,20 +33,49 @@ header {
 #header-main{
   height: 72px;
   background-color: #e00109;
+  box-sizing: border-box;
   text-align: center;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  overflow: auto;
 }
 
 .hm-content {
-  position: relative;
+  float: left;
   width: 24%;
   height: 100%;
   box-sizing: border-box;
-  background-color: yellow;
 }
-#logo img{
+#logo {
+  margin-left: 14%;
+}
+
+#social-network-header {
 
 }
 
+.i-header {
+  position: relative;
+  top: 11.5px;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #e00109;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+#search-header{
+  color: #ffffff;
+}
+
+#search {
+  position: relative;
+  top: 11.5px;
+  padding: 7.5px;
+  border: 1px #ffffff solid;
+  border-radius: 10px;
+}
 /*Menú de navegación*/
 #navbar{
   background-color: #5c5c66;
@@ -54,20 +84,42 @@ header {
   left: 14%;
   width: 72%;
   text-align: center;
+  background-color: #4d4d59;
   color: #fefefe;
 }
 #navbar-list li{
-  background-color: #4d4d59;
   display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 15px;
 }
 
 #tem-body {
   height: 500px;
   width: 72%;
   left: 14%;
+  top: 91px;
   background-color: #ffffff;
+  padding: 30px 15px;
 }
 
+#content-body {
+  position: absolute;
+  display: inline-block;
+}
+#news {
+  left: 0;
+  width: 70%;
+  height: 100px;
+  background-color: blue;
+}
+
+#more {
+  right: 0;
+  width: 30%;
+  height: 100px;
+  background-color: green;
+}
 /*footer {
   height: 100px;
   background-color: yellow;
